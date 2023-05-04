@@ -9,7 +9,46 @@
 </head>
 
 <body>
+  <form action="">
+  <div>
+    <div>
+      <h2>Recipient Details</h2>
+        <label for="recipient-name">Full name</label> <br>
+        <input type="text" id="recipient-name"> <br>
+
+        <label for="telephone-number">Telephone</label> <br>
+        <input type="tel" id="telephone-number"> <br>
+
+        <label for="address">Address</label> <br>
+        <input type="text" id="address">
+    </div>
+    <div>
+            <h2>Sender Details</h2>
+            <label for="sender-name">Full name</label> <br>
+            <input type="text" id="sender-name"> <br>
+                         
+            <label for="email">Email</label> <br>
+            <input type="email" id="email"> <br>
+
+    </div>
+
+  </div>
+
+  <div>
+    <h2>Order</h2>
+    <label for="bouquet-select">Bouquet Type</label> <br>
+    <select name="bouquet-type" id="bouquet-select">
+      <option value="basic">B - 24</option>
+      <option value="premium">P - 50</option>
+      <option value="premium-plus">P + C - 60</option>
+    </select> <br>
   
+    <label for="message-textarea">Message</label> <br>
+    <textarea name="message" id="message-textarea"></textarea> <br>
+  
+    <button type="submit">Checkout</button>
+  </div>
+  </form>
 </body>
 
 </html>
